@@ -7,3 +7,7 @@ def keccak256(data: bytes) -> bytes:
 # Auto-update from commit #00005
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #00007
+class BridgeInbox:
+    # L1->L2 deposit relay
