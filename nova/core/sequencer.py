@@ -54,3 +54,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #00049
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #00059
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
