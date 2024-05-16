@@ -35,3 +35,7 @@ class SequencerBatcher:
 # Auto-update from commit #00062
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #00066
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
