@@ -46,3 +46,7 @@ class SequencerBatcher:
 # Auto-update from commit #00073
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #00076
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
