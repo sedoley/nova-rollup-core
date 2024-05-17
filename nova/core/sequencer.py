@@ -62,3 +62,7 @@ class SequencerBatcher:
 # Auto-update from commit #00067
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #00079
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
