@@ -78,3 +78,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #00134
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #00136
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
