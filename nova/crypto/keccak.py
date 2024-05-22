@@ -79,3 +79,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #00131
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #00140
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
