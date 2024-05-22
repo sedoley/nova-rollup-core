@@ -94,3 +94,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #00135
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #00141
+class BridgeInbox:
+    # L1->L2 deposit relay
