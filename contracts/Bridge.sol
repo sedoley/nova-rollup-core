@@ -130,3 +130,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #00154
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #00157
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
