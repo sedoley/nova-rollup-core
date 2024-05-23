@@ -90,3 +90,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #00148
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #00162
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
