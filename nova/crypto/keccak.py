@@ -119,3 +119,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #00232
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #00238
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
