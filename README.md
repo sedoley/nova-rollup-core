@@ -201,3 +201,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #00268
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #00284
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
