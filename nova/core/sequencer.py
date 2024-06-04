@@ -246,3 +246,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #00312
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #00317
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
