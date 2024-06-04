@@ -278,3 +278,7 @@ class SequencerBatcher:
 # Auto-update from commit #00324
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #00328
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
