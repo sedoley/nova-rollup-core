@@ -175,3 +175,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #00318
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #00319
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
