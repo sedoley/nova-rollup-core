@@ -199,3 +199,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #00358
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #00363
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
