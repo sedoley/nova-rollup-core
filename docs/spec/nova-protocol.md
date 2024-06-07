@@ -191,3 +191,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #00350
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #00352
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
