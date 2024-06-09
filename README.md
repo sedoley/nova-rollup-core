@@ -269,3 +269,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #00371
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #00389
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
