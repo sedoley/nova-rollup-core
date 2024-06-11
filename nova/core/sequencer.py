@@ -290,3 +290,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #00384
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #00419
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
