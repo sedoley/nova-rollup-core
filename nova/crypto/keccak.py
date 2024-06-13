@@ -251,3 +251,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #00440
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #00456
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
