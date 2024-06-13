@@ -378,3 +378,7 @@ class SequencerBatcher:
 # Auto-update from commit #00445
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #00449
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
