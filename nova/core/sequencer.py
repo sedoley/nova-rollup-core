@@ -366,3 +366,7 @@ class BridgeInbox:
 # Auto-update from commit #00506
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #00510
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
