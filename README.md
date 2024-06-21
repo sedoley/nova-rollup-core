@@ -377,3 +377,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #00561
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #00562
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
