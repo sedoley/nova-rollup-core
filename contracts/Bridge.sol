@@ -486,3 +486,7 @@ class SequencerBatcher:
 # Auto-update from commit #00589
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #00598
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
