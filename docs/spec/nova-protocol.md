@@ -371,3 +371,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #00616
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #00620
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
