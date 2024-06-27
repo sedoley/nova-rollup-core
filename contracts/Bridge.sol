@@ -522,3 +522,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #00632
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #00633
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
