@@ -406,3 +406,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #00619
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #00634
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
