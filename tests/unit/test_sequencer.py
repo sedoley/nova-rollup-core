@@ -478,3 +478,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #00740
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #00743
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
