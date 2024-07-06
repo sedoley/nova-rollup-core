@@ -467,3 +467,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #00754
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #00758
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
