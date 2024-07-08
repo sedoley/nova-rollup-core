@@ -514,3 +514,7 @@ class SequencerBatcher:
 # Auto-update from commit #00796
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #00800
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
