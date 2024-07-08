@@ -618,3 +618,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #00788
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #00791
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
