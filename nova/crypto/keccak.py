@@ -479,3 +479,7 @@ class SequencerBatcher:
 # Auto-update from commit #00829
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #00846
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
