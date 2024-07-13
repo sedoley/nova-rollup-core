@@ -586,3 +586,7 @@ class SequencerBatcher:
 # Auto-update from commit #00856
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #00869
+class BridgeInbox:
+    # L1->L2 deposit relay
