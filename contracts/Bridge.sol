@@ -686,3 +686,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #00884
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #00887
+class BridgeInbox:
+    # L1->L2 deposit relay
