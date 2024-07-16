@@ -519,3 +519,7 @@ class BridgeInbox:
 # Auto-update from commit #00904
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #00905
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
