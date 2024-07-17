@@ -527,3 +527,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #00911
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #00915
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
