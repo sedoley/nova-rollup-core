@@ -677,3 +677,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #00933
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #00938
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
