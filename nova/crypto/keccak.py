@@ -551,3 +551,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #00945
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #00950
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
