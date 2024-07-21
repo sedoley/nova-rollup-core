@@ -701,3 +701,7 @@ class SequencerBatcher:
 # Auto-update from commit #00966
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #00967
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
