@@ -746,3 +746,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #01003
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #01009
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
