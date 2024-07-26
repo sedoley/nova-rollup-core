@@ -753,3 +753,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #01032
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #01034
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
