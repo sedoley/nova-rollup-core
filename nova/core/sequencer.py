@@ -738,3 +738,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #01048
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #01051
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
