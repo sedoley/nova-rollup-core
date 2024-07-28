@@ -769,3 +769,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #01049
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #01058
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
