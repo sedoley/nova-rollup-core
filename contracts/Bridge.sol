@@ -842,3 +842,7 @@ class BridgeInbox:
 # Auto-update from commit #01166
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #01175
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
