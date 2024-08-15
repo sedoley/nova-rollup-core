@@ -815,3 +815,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #01316
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #01318
+class BridgeInbox:
+    # L1->L2 deposit relay
