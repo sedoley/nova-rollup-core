@@ -929,3 +929,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #01315
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #01321
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
