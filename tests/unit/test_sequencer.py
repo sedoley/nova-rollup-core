@@ -878,3 +878,7 @@ class SequencerBatcher:
 # Auto-update from commit #01305
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #01317
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
