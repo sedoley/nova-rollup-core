@@ -954,3 +954,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #01308
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #01320
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
