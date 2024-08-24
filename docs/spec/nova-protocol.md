@@ -823,3 +823,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #01418
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #01427
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
