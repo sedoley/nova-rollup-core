@@ -899,3 +899,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #01441
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #01450
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
