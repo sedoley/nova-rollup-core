@@ -1029,3 +1029,7 @@ class SequencerBatcher:
 # Auto-update from commit #01462
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #01479
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
