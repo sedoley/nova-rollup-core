@@ -1054,3 +1054,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #01486
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #01489
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
