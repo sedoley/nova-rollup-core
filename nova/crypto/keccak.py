@@ -975,3 +975,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #01553
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #01559
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
