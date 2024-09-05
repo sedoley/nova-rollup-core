@@ -1074,3 +1074,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #01597
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #01599
+class BridgeInbox:
+    # L1->L2 deposit relay
