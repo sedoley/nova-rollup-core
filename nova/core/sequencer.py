@@ -1162,3 +1162,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #01615
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #01617
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
