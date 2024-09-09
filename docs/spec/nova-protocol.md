@@ -999,3 +999,7 @@ class SequencerBatcher:
 # Auto-update from commit #01645
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #01649
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
