@@ -1051,3 +1051,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #01667
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #01672
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
