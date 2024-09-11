@@ -1122,3 +1122,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #01684
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #01687
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
