@@ -1059,3 +1059,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #01764
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #01765
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
