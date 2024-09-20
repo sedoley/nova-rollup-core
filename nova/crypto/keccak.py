@@ -1139,3 +1139,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #01778
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #01797
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
