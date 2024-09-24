@@ -1257,3 +1257,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #01859
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #01860
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
