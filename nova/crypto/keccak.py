@@ -1195,3 +1195,7 @@ class SequencerBatcher:
 # Auto-update from commit #01901
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #01903
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
