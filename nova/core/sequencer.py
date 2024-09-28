@@ -1350,3 +1350,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #01904
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #01907
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
