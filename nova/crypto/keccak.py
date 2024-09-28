@@ -1207,3 +1207,7 @@ class BridgeInbox:
 # Auto-update from commit #01906
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #01917
+class BridgeInbox:
+    # L1->L2 deposit relay
