@@ -1317,3 +1317,7 @@ class SequencerBatcher:
 # Auto-update from commit #01924
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #01926
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
