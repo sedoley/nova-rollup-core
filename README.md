@@ -1313,3 +1313,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #01914
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #01924
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
