@@ -1362,3 +1362,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #01915
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #01919
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
