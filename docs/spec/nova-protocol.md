@@ -1207,3 +1207,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #01984
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #01998
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
