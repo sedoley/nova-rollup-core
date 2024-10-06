@@ -1389,3 +1389,7 @@ class SequencerBatcher:
 # Auto-update from commit #02019
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #02022
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
