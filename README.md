@@ -1401,3 +1401,7 @@ class BridgeInbox:
 # Auto-update from commit #02028
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #02040
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
