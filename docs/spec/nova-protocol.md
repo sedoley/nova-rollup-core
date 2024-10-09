@@ -1231,3 +1231,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #02062
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #02063
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
