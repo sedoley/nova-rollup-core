@@ -1474,3 +1474,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #02097
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #02098
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
