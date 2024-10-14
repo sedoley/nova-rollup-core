@@ -1501,3 +1501,7 @@ class SequencerBatcher:
 # Auto-update from commit #02122
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #02126
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
