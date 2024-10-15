@@ -1518,3 +1518,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #02144
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #02154
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
