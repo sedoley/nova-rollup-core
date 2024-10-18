@@ -1395,3 +1395,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #02191
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #02194
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
