@@ -1442,3 +1442,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #02219
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #02234
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
