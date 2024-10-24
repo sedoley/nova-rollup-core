@@ -1597,3 +1597,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #02268
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #02270
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
