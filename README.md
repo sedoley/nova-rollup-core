@@ -1593,3 +1593,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #02262
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #02268
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
