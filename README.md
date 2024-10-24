@@ -1589,3 +1589,7 @@ class SequencerBatcher:
 # Auto-update from commit #02257
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #02262
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
