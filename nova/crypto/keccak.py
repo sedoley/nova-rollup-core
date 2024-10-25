@@ -1455,3 +1455,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #02289
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #02293
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
