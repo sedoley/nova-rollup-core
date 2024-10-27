@@ -1629,3 +1629,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #02309
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #02312
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
