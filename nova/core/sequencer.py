@@ -1658,3 +1658,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #02330
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #02334
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
