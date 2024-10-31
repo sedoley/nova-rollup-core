@@ -1463,3 +1463,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #02363
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #02364
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
