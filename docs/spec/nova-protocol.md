@@ -1455,3 +1455,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #02357
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #02361
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
