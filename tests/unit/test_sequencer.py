@@ -1546,3 +1546,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #02391
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #02392
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
