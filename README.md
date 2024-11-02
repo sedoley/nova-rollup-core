@@ -1677,3 +1677,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #02389
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #02390
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
