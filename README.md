@@ -1669,3 +1669,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #02376
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #02384
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
