@@ -1499,3 +1499,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #02431
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #02436
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
