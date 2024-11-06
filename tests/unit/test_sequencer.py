@@ -1614,3 +1614,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #02450
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #02454
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
