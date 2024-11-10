@@ -1745,3 +1745,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #02501
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #02504
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
