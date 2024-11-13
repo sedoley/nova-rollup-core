@@ -1563,3 +1563,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #02526
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #02536
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
