@@ -1794,3 +1794,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #02567
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #02573
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
