@@ -1623,3 +1623,7 @@ class BridgeInbox:
 # Auto-update from commit #02599
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #02603
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
