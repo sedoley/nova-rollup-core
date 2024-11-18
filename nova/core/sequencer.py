@@ -1818,3 +1818,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #02601
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #02610
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
