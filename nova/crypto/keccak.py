@@ -1643,3 +1643,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #02602
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #02607
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
