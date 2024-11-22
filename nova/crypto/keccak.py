@@ -1683,3 +1683,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #02656
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #02664
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
