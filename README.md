@@ -1889,3 +1889,7 @@ class BridgeInbox:
 # Auto-update from commit #02680
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #02690
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
