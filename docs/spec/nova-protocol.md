@@ -1719,3 +1719,7 @@ class BridgeInbox:
 # Auto-update from commit #02722
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #02724
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
