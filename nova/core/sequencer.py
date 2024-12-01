@@ -1906,3 +1906,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #02779
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #02785
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
