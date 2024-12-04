@@ -1779,3 +1779,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #02818
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #02824
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
