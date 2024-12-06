@@ -1950,3 +1950,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #02841
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #02851
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
