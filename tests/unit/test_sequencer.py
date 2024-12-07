@@ -1886,3 +1886,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #02876
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #02879
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
