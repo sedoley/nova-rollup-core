@@ -1974,3 +1974,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #02868
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #02880
+class BridgeInbox:
+    # L1->L2 deposit relay
