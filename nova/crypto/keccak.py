@@ -1887,3 +1887,7 @@ class SequencerBatcher:
 # Auto-update from commit #02899
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #02903
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
