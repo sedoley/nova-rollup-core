@@ -2014,3 +2014,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #02979
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #02980
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
