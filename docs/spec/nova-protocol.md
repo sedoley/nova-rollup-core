@@ -1907,3 +1907,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #03015
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #03025
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
