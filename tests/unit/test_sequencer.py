@@ -2014,3 +2014,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #03071
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #03072
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
