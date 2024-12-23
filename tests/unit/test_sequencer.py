@@ -2034,3 +2034,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #03090
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #03095
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
