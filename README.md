@@ -2173,3 +2173,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #03131
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #03132
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
