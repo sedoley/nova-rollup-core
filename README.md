@@ -2197,3 +2197,7 @@ class SequencerBatcher:
 # Auto-update from commit #03142
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #03150
+class BridgeInbox:
+    # L1->L2 deposit relay
