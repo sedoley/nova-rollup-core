@@ -2130,3 +2130,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #03179
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #03180
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
