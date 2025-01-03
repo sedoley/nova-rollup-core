@@ -2226,3 +2226,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #03245
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #03246
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
