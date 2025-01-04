@@ -2127,3 +2127,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #03249
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #03250
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
