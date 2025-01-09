@@ -2286,3 +2286,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #03329
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #03333
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
