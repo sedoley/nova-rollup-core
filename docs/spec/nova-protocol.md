@@ -2175,3 +2175,7 @@ class BridgeInbox:
 # Auto-update from commit #03337
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #03338
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
