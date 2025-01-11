@@ -2290,3 +2290,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #03333
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #03341
+class BridgeInbox:
+    # L1->L2 deposit relay
