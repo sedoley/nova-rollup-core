@@ -2191,3 +2191,7 @@ class SequencerBatcher:
 # Auto-update from commit #03364
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #03368
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
