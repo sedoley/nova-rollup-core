@@ -2214,3 +2214,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #03401
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #03402
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
