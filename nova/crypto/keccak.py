@@ -2267,3 +2267,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #03439
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #03446
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
