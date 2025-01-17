@@ -2243,3 +2243,7 @@ class BridgeInbox:
 # Auto-update from commit #03421
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #03430
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
