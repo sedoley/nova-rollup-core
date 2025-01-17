@@ -2266,3 +2266,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #03424
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #03434
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
