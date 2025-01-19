@@ -2259,3 +2259,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #03460
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #03465
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
