@@ -2283,3 +2283,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #03458
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #03464
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
