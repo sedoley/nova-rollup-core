@@ -2330,3 +2330,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #03503
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #03508
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
