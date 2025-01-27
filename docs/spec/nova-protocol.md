@@ -2343,3 +2343,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #03568
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #03571
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
