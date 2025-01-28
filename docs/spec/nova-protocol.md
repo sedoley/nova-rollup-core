@@ -2351,3 +2351,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #03576
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #03590
+class BridgeInbox:
+    # L1->L2 deposit relay
