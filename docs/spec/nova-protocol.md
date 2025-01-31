@@ -2355,3 +2355,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #03590
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #03619
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
