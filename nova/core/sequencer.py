@@ -2462,3 +2462,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #03631
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #03637
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
