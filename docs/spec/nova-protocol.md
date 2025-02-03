@@ -2375,3 +2375,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #03654
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #03658
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
