@@ -2435,3 +2435,7 @@ class BridgeInbox:
 # Auto-update from commit #03690
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #03691
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
