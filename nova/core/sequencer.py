@@ -2506,3 +2506,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #03745
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #03749
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
