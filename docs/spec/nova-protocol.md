@@ -2447,3 +2447,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #03778
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #03782
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
