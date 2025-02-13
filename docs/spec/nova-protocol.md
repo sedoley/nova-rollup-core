@@ -2467,3 +2467,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #03810
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #03817
+class BridgeInbox:
+    # L1->L2 deposit relay
