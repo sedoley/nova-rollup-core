@@ -2562,3 +2562,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #03852
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #03858
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
