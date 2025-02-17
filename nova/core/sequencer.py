@@ -2566,3 +2566,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #03858
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #03860
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
