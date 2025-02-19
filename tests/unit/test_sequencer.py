@@ -2570,3 +2570,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #03888
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #03896
+class BridgeInbox:
+    # L1->L2 deposit relay
