@@ -2531,3 +2531,7 @@ class SequencerBatcher:
 # Auto-update from commit #03894
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #03901
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
