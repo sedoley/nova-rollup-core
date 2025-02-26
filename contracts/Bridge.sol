@@ -2662,3 +2662,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #03983
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #03987
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
