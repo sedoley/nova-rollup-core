@@ -2690,3 +2690,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #03990
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #03993
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
