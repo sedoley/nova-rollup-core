@@ -2659,3 +2659,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #04062
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #04067
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
