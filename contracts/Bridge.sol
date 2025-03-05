@@ -2714,3 +2714,7 @@ class BridgeInbox:
 # Auto-update from commit #04073
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #04082
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
