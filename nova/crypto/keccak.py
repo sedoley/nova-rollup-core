@@ -2671,3 +2671,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #04078
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #04098
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
