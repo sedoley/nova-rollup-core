@@ -2710,3 +2710,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #04130
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #04132
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
