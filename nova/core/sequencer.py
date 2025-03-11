@@ -2814,3 +2814,7 @@ class BridgeInbox:
 # Auto-update from commit #04145
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #04154
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
