@@ -2790,3 +2790,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #04180
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #04191
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
