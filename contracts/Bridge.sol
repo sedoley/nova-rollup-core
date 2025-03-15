@@ -2806,3 +2806,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #04203
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #04212
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
