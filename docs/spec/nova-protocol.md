@@ -2739,3 +2739,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #04214
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #04218
+class BridgeInbox:
+    # L1->L2 deposit relay
