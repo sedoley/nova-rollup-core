@@ -2906,3 +2906,7 @@ class SequencerBatcher:
 # Auto-update from commit #04225
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #04227
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
