@@ -2747,3 +2747,7 @@ class BridgeInbox:
 # Auto-update from commit #04226
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #04228
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
