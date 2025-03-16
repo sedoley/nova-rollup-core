@@ -2758,3 +2758,7 @@ class SequencerBatcher:
 # Auto-update from commit #04229
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #04233
+class BridgeInbox:
+    # L1->L2 deposit relay
