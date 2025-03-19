@@ -2942,3 +2942,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #04258
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #04275
+class BridgeInbox:
+    # L1->L2 deposit relay
