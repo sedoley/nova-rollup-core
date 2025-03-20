@@ -2779,3 +2779,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #04272
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #04277
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
