@@ -2846,3 +2846,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #04293
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #04301
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
