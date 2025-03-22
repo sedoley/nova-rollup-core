@@ -2974,3 +2974,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #04311
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #04313
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
