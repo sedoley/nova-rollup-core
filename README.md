@@ -3013,3 +3013,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #04310
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #04312
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
