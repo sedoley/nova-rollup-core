@@ -3014,3 +3014,7 @@ class SequencerBatcher:
 # Auto-update from commit #04391
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #04393
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
