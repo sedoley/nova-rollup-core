@@ -2859,3 +2859,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #04387
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #04392
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
