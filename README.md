@@ -3097,3 +3097,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #04432
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #04434
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
