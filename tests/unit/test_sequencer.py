@@ -2918,3 +2918,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #04445
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #04449
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
