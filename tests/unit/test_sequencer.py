@@ -2958,3 +2958,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #04505
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #04524
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
