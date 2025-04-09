@@ -2978,3 +2978,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #04557
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #04563
+class BridgeInbox:
+    # L1->L2 deposit relay
