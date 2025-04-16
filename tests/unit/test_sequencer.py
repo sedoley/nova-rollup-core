@@ -3034,3 +3034,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #04653
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #04654
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
