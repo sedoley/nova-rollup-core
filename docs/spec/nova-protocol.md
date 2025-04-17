@@ -3039,3 +3039,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #04661
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #04668
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
