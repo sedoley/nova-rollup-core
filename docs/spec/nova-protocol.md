@@ -3043,3 +3043,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #04668
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #04670
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
