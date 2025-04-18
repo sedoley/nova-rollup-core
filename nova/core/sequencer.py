@@ -3206,3 +3206,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #04662
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #04671
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
