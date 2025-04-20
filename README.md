@@ -3277,3 +3277,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #04699
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #04702
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
