@@ -3063,3 +3063,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #04710
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #04714
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
