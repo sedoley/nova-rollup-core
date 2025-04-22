@@ -3270,3 +3270,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #04721
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #04729
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
