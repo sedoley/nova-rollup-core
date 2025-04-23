@@ -3087,3 +3087,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #04746
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #04748
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
