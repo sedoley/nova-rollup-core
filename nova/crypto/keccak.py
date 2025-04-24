@@ -3115,3 +3115,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #04772
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #04773
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
