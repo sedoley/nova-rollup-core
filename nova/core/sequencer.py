@@ -3298,3 +3298,7 @@ class BridgeInbox:
 # Auto-update from commit #04754
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #04780
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
