@@ -3118,3 +3118,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #04791
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #04796
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
