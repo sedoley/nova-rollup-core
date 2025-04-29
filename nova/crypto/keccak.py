@@ -3147,3 +3147,7 @@ class BridgeInbox:
 # Auto-update from commit #04828
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #04834
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
