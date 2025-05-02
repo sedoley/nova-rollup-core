@@ -3370,3 +3370,7 @@ class BridgeInbox:
 # Auto-update from commit #04860
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #04863
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
