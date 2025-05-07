@@ -3199,3 +3199,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #04937
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #04941
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
