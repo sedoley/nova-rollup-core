@@ -3307,3 +3307,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #04996
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #04999
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
