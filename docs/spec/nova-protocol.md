@@ -3319,3 +3319,7 @@ class SequencerBatcher:
 # Auto-update from commit #05005
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #05008
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
