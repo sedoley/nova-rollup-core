@@ -3315,3 +3315,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #05071
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #05073
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
