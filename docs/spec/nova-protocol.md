@@ -3415,3 +3415,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #05144
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #05145
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
