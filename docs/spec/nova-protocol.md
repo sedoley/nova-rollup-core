@@ -3435,3 +3435,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #05179
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #05184
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
