@@ -3507,3 +3507,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #05274
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #05275
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
