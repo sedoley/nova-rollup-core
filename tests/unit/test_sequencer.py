@@ -3482,3 +3482,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #05358
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #05361
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
