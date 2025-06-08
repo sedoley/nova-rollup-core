@@ -3550,3 +3550,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #05371
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #05376
+class BridgeInbox:
+    # L1->L2 deposit relay
