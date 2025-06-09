@@ -3709,3 +3709,7 @@ class SequencerBatcher:
 # Auto-update from commit #05386
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #05388
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
