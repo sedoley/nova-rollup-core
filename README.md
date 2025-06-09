@@ -3729,3 +3729,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #05399
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #05400
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
