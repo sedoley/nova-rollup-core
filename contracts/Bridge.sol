@@ -3630,3 +3630,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #05486
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #05497
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
