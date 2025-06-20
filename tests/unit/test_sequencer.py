@@ -3614,3 +3614,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #05542
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #05547
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
