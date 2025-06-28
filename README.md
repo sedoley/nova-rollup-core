@@ -3909,3 +3909,7 @@ class BridgeInbox:
 # Auto-update from commit #05654
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #05660
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
