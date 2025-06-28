@@ -3639,3 +3639,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #05659
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #05661
+class BridgeInbox:
+    # L1->L2 deposit relay
