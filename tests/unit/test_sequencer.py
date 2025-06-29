@@ -3678,3 +3678,7 @@ class SequencerBatcher:
 # Auto-update from commit #05662
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #05666
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
