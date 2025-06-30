@@ -3921,3 +3921,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #05676
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #05684
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
