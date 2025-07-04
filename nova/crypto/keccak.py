@@ -3683,3 +3683,7 @@ class BridgeInbox:
 # Auto-update from commit #05727
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #05737
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
