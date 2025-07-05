@@ -3695,3 +3695,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #05742
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #05749
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
