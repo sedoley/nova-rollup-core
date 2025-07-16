@@ -3799,3 +3799,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #05889
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #05891
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
