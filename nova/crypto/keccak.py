@@ -3847,3 +3847,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #05943
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #05972
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
