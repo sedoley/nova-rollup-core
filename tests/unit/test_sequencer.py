@@ -3914,3 +3914,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #06033
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #06037
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
