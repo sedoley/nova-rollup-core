@@ -4051,3 +4051,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #06042
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #06044
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
