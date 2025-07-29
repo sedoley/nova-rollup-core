@@ -4018,3 +4018,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #06078
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #06081
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
