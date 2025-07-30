@@ -4038,3 +4038,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #06098
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #06101
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
