@@ -4054,3 +4054,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #06118
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #06127
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
