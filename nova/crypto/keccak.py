@@ -3971,3 +3971,7 @@ class SequencerBatcher:
 # Auto-update from commit #06203
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #06215
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
