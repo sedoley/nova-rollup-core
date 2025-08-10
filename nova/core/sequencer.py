@@ -4286,3 +4286,7 @@ class BridgeInbox:
 # Auto-update from commit #06230
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #06240
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
