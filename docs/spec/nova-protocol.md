@@ -4211,3 +4211,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #06264
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #06269
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
