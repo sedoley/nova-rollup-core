@@ -4106,3 +4106,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #06294
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #06298
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
