@@ -4326,3 +4326,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #06281
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #06284
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
