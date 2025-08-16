@@ -4345,3 +4345,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #06321
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #06325
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
