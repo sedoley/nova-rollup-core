@@ -4178,3 +4178,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #06385
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #06386
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
