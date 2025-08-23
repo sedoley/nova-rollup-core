@@ -4262,3 +4262,7 @@ class SequencerBatcher:
 # Auto-update from commit #06414
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #06415
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
