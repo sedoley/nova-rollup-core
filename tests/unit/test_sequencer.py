@@ -4210,3 +4210,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #06418
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #06419
+class BridgeInbox:
+    # L1->L2 deposit relay
