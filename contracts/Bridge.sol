@@ -4286,3 +4286,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #06481
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #06486
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
