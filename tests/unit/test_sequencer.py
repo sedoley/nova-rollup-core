@@ -4286,3 +4286,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #06505
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #06513
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
