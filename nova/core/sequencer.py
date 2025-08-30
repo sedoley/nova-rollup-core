@@ -4498,3 +4498,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #06517
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #06522
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
