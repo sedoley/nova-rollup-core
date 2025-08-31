@@ -4298,3 +4298,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #06506
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #06526
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
