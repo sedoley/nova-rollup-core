@@ -4314,3 +4314,7 @@ class BridgeInbox:
 # Auto-update from commit #06540
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #06544
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
