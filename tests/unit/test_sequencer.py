@@ -4358,3 +4358,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #06612
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #06620
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
