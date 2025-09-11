@@ -4451,3 +4451,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #06657
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #06672
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
