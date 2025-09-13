@@ -4602,3 +4602,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #06713
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #06715
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
