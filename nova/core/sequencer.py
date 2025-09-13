@@ -4598,3 +4598,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #06691
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #06713
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
