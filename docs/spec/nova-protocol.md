@@ -4503,3 +4503,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #06730
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #06738
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
