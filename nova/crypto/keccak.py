@@ -4263,3 +4263,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #06732
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #06736
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
