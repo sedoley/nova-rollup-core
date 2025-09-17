@@ -4638,3 +4638,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #06762
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #06767
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
