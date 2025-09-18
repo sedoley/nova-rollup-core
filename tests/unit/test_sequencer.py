@@ -4486,3 +4486,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #06756
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #06783
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
