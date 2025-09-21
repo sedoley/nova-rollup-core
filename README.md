@@ -4733,3 +4733,7 @@ class BridgeInbox:
 # Auto-update from commit #06815
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #06820
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
