@@ -4570,3 +4570,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #06897
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #06900
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
