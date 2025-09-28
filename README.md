@@ -4781,3 +4781,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #06898
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #06913
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
