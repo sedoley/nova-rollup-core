@@ -4602,3 +4602,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #06928
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #06929
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
