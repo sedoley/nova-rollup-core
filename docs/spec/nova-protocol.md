@@ -4683,3 +4683,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #06980
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #06982
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
