@@ -4399,3 +4399,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #06965
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #06977
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
