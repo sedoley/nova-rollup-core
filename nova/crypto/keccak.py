@@ -4431,3 +4431,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #07000
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #07003
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
