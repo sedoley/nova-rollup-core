@@ -4706,3 +4706,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #07032
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #07033
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
