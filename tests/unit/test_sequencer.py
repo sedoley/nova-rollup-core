@@ -4702,3 +4702,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #07030
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #07032
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
