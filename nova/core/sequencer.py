@@ -4862,3 +4862,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #07081
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #07094
+class BridgeInbox:
+    # L1->L2 deposit relay
