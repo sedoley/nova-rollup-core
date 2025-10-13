@@ -4515,3 +4515,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #07114
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #07116
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
