@@ -4815,3 +4815,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #07164
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #07170
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
