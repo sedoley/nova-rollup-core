@@ -4682,3 +4682,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #07205
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #07207
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
