@@ -4591,3 +4591,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #07235
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #07239
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
