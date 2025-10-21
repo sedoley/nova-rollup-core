@@ -4835,3 +4835,7 @@ class SequencerBatcher:
 # Auto-update from commit #07226
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #07230
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
