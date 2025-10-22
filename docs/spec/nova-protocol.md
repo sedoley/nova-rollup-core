@@ -4863,3 +4863,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #07248
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #07249
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
