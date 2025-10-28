@@ -4914,3 +4914,7 @@ class SequencerBatcher:
 # Auto-update from commit #07335
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #07336
+class BridgeInbox:
+    # L1->L2 deposit relay
