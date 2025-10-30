@@ -5089,3 +5089,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #07346
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #07355
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
