@@ -4982,3 +4982,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #07416
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #07417
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
