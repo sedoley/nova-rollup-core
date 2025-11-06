@@ -4999,3 +4999,7 @@ def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
 # Auto-update from commit #07456
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #07460
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
