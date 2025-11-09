@@ -4779,3 +4779,7 @@ class SequencerBatcher:
 # Auto-update from commit #07502
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #07503
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
