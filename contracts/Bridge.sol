@@ -4922,3 +4922,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #07584
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #07591
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
