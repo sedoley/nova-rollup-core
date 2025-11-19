@@ -5162,3 +5162,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #07625
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #07627
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
