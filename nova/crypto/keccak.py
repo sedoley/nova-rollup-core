@@ -4855,3 +4855,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #07622
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #07630
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
