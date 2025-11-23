@@ -5111,3 +5111,7 @@ class BridgeInbox:
 # Auto-update from commit #07669
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #07678
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
