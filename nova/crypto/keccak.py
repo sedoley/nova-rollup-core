@@ -4891,3 +4891,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #07676
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #07684
+class BridgeInbox:
+    # L1->L2 deposit relay
