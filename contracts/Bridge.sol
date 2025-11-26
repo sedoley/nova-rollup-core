@@ -5030,3 +5030,7 @@ class BridgeInbox:
 # Auto-update from commit #07723
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #07725
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
