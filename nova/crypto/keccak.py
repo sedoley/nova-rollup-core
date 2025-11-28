@@ -4951,3 +4951,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #07746
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #07749
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
