@@ -5310,3 +5310,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #07812
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #07814
+class BridgeInbox:
+    # L1->L2 deposit relay
