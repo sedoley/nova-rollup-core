@@ -5322,3 +5322,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #07875
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #07876
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
