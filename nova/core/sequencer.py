@@ -5362,3 +5362,7 @@ class SequencerBatcher:
 # Auto-update from commit #07886
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #07887
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
