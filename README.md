@@ -5457,3 +5457,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #07930
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #07931
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
