@@ -5210,3 +5210,7 @@ class SequencerBatcher:
 # Auto-update from commit #07940
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #07945
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
