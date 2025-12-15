@@ -5218,3 +5218,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #07951
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #07984
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
