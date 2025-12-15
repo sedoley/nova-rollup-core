@@ -5414,3 +5414,7 @@ class SequencerBatcher:
 # Auto-update from commit #07980
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #07988
+class BridgeInbox:
+    # L1->L2 deposit relay
