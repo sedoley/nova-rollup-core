@@ -5430,3 +5430,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #08002
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #08007
+class BridgeInbox:
+    # L1->L2 deposit relay
