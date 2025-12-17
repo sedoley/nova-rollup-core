@@ -5434,3 +5434,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #08007
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #08011
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
