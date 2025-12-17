@@ -5438,3 +5438,7 @@ class BridgeInbox:
 # Auto-update from commit #08011
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #08016
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
