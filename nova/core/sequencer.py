@@ -5446,3 +5446,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #08028
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #08029
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
