@@ -5446,3 +5446,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #08021
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #08033
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
