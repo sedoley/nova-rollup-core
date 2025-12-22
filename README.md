@@ -5553,3 +5553,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #08089
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #08090
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
