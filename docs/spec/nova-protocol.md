@@ -5419,3 +5419,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #08106
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #08108
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
