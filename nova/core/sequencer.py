@@ -5562,3 +5562,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #08222
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #08238
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
