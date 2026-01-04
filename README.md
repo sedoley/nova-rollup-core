@@ -5665,3 +5665,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #08264
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #08265
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
