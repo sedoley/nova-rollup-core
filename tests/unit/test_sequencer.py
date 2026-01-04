@@ -5626,3 +5626,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #08255
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #08258
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
