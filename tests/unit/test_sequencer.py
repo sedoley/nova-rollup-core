@@ -5698,3 +5698,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #08335
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #08341
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
