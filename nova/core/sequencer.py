@@ -5618,3 +5618,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #08327
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #08343
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
