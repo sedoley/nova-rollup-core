@@ -5706,3 +5706,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #08345
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #08362
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
