@@ -5575,3 +5575,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #08353
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #08355
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
