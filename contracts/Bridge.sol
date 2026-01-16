@@ -5450,3 +5450,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #08427
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #08433
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
