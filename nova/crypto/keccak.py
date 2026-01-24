@@ -5503,3 +5503,7 @@ class SequencerBatcher:
 # Auto-update from commit #08531
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #08542
+class BridgeInbox:
+    # L1->L2 deposit relay
