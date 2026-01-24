@@ -5850,3 +5850,7 @@ class SequencerBatcher:
 # Auto-update from commit #08529
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #08535
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
