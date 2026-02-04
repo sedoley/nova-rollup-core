@@ -5815,3 +5815,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #08686
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #08691
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
