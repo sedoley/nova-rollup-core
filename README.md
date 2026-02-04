@@ -5893,3 +5893,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #08683
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #08684
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
