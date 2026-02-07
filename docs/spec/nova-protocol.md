@@ -5851,3 +5851,7 @@ class SequencerBatcher:
 # Auto-update from commit #08724
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #08730
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
