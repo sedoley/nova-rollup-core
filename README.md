@@ -5969,3 +5969,7 @@ class SequencerBatcher:
 # Auto-update from commit #08764
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #08765
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
