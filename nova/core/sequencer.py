@@ -5874,3 +5874,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #08756
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #08767
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
