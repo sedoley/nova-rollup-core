@@ -5698,3 +5698,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #08795
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #08811
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
