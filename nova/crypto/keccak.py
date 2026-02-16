@@ -5695,3 +5695,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #08844
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #08849
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
