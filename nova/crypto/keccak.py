@@ -5711,3 +5711,7 @@ class BridgeInbox:
 # Auto-update from commit #08861
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #08869
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
