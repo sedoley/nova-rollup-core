@@ -6098,3 +6098,7 @@ class BridgeInbox:
 # Auto-update from commit #08880
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #08881
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
