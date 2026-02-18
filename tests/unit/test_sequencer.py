@@ -6082,3 +6082,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #08855
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #08871
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
