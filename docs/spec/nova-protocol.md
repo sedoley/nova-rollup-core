@@ -5979,3 +5979,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #08908
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #08911
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
