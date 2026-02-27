@@ -6047,3 +6047,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #08997
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #09002
+class BridgeInbox:
+    # L1->L2 deposit relay
