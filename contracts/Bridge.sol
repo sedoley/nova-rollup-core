@@ -5902,3 +5902,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #09069
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #09077
+class SequencerBatcher:
+    def __init__(self): self.pending_batches = []
