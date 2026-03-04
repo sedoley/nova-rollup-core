@@ -6169,3 +6169,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #09033
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #09066
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
