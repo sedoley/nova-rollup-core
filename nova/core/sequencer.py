@@ -6050,3 +6050,7 @@ class BridgeInbox:
 # Auto-update from commit #09063
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #09065
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
