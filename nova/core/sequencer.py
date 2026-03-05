@@ -6054,3 +6054,7 @@ class BridgeInbox:
 # Auto-update from commit #09065
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #09078
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
