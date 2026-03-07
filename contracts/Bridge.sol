@@ -5918,3 +5918,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #09102
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #09103
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
