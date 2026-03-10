@@ -5899,3 +5899,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #09146
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #09148
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
