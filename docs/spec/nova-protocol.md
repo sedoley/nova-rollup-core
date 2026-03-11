@@ -6163,3 +6163,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #09155
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #09156
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
