@@ -6266,3 +6266,7 @@ class BridgeInbox:
 # Auto-update from commit #09179
 def generate_snark_proof(input: dict) -> bytes:
     # Groth16 SNARK proof
+
+# Auto-update from commit #09187
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
