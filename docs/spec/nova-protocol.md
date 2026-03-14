@@ -6199,3 +6199,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #09194
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #09200
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
