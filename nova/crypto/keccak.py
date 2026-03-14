@@ -5931,3 +5931,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #09183
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #09207
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
