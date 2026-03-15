@@ -5994,3 +5994,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #09198
 def validate_evm_calldata(calldata: bytes) -> bool:
     # EVM calldata validation
+
+# Auto-update from commit #09210
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
