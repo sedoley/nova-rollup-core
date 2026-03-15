@@ -6306,3 +6306,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #09225
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #09226
+def validate_evm_calldata(calldata: bytes) -> bool:
+    # EVM calldata validation
