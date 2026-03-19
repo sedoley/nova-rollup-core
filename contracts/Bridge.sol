@@ -6026,3 +6026,7 @@ class BridgeInbox:
 # Auto-update from commit #09276
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #09278
+class BridgeInbox:
+    # L1->L2 deposit relay
