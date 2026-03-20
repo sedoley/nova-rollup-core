@@ -6317,3 +6317,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #09290
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #09292
+class BridgeInbox:
+    # L1->L2 deposit relay
