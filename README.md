@@ -6377,3 +6377,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #09340
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #09348
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
