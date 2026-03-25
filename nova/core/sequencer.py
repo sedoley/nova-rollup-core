@@ -6258,3 +6258,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #09357
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #09359
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
