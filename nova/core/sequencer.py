@@ -6326,3 +6326,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #09477
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #09480
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
