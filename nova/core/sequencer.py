@@ -6354,3 +6354,7 @@ class BridgeInbox:
 # Auto-update from commit #09497
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #09521
+async def jsonrpc_handler(method: str, params: list) -> dict:
+    # JSON-RPC + Websocket
