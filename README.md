@@ -6513,3 +6513,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #09535
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #09542
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
