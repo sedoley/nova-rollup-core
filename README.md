@@ -6517,3 +6517,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #09542
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #09543
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
