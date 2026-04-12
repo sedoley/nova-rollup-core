@@ -6565,3 +6565,7 @@ class BridgeInbox:
 # Auto-update from commit #09595
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #09603
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
