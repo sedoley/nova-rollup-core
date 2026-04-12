@@ -6246,3 +6246,7 @@ def compress_batch_with_blobs(data: bytes) -> bytes:
 # Auto-update from commit #09606
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #09611
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
