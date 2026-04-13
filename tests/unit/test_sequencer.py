@@ -6522,3 +6522,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #09602
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #09607
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
