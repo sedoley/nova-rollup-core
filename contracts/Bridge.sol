@@ -6286,3 +6286,7 @@ async def jsonrpc_handler(method: str, params: list) -> dict:
 # Auto-update from commit #09667
 def get_base_gas_oracle_price() -> int:
     # Base-specific Gas Price Oracle
+
+# Auto-update from commit #09677
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
