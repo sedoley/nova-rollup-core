@@ -6523,3 +6523,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #09708
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #09711
+class BridgeInbox:
+    # L1->L2 deposit relay
