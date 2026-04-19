@@ -6306,3 +6306,7 @@ def validate_evm_calldata(calldata: bytes) -> bool:
 # Auto-update from commit #09700
 def apply_state_transition(state: dict, block: dict) -> dict:
     # RLP-decoded state transition
+
+# Auto-update from commit #09701
+def verify_keccak256(data: bytes) -> bytes:
+    # EIP-4844 compatible Keccak for Base DA
