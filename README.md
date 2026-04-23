@@ -6677,3 +6677,7 @@ def verify_keccak256(data: bytes) -> bytes:
 # Auto-update from commit #09739
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #09756
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
