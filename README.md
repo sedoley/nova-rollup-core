@@ -6685,3 +6685,7 @@ def generate_snark_proof(input: dict) -> bytes:
 # Auto-update from commit #09758
 class SequencerBatcher:
     def __init__(self): self.pending_batches = []
+
+# Auto-update from commit #09762
+def compress_batch_with_blobs(data: bytes) -> bytes:
+    # Danksharding blob encoding
