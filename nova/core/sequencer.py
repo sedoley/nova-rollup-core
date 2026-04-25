@@ -6554,3 +6554,7 @@ class SequencerBatcher:
 # Auto-update from commit #09784
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #09785
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
