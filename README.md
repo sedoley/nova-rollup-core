@@ -6705,3 +6705,7 @@ class BridgeInbox:
 # Auto-update from commit #09801
 class BridgeInbox:
     # L1->L2 deposit relay
+
+# Auto-update from commit #09811
+class BridgeInbox:
+    # L1->L2 deposit relay
