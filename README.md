@@ -6733,3 +6733,7 @@ class BridgeInbox:
 # Auto-update from commit #09835
 async def jsonrpc_handler(method: str, params: list) -> dict:
     # JSON-RPC + Websocket
+
+# Auto-update from commit #09841
+def get_base_gas_oracle_price() -> int:
+    # Base-specific Gas Price Oracle
