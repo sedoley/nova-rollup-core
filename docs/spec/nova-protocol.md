@@ -6639,3 +6639,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #09868
 def compress_batch_with_blobs(data: bytes) -> bytes:
     # Danksharding blob encoding
+
+# Auto-update from commit #09871
+def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
+    # ECDSA for Base Mainnet
