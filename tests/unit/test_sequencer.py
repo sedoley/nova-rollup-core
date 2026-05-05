@@ -6774,3 +6774,7 @@ def apply_state_transition(state: dict, block: dict) -> dict:
 # Auto-update from commit #09924
 def sign_ecdsa(private_key: bytes, message: bytes) -> bytes:
     # ECDSA for Base Mainnet
+
+# Auto-update from commit #09926
+def generate_snark_proof(input: dict) -> bytes:
+    # Groth16 SNARK proof
