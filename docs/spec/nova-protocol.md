@@ -6723,3 +6723,7 @@ def get_base_gas_oracle_price() -> int:
 # Auto-update from commit #09991
 def verify_keccak256(data: bytes) -> bytes:
     # EIP-4844 compatible Keccak for Base DA
+
+# Auto-update from commit #09993
+def apply_state_transition(state: dict, block: dict) -> dict:
+    # RLP-decoded state transition
